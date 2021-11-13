@@ -20,7 +20,7 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="navigation">
           <a href="./index.html" class="logo">
             Web
@@ -38,9 +38,7 @@
             </li>
           </ul>
         </nav>
-      </div>
-      <div class="container">
-        <ul class="nav-links">
+        <ul class="nav-links nav-contacts">
           <li class="item">
             <a href="mailto:info@devstudio.com" class="contact">
               info@devstudio.com
@@ -58,38 +56,38 @@
     <main>
       <div class="current">
         <section class="hero section">
-          <h1 class="title">
-            Эффективные решения
-            <br />
-            для вашего бизнеса
-          </h1>
-          <button type="button" class="button">
-            Заказать услугу
-          </button>
+          <div class="container hero-container">
+            <h1 class="title">
+              Эффективные решения для вашего бизнеса
+            </h1>
+            <button type="button" class="button">
+              Заказать услугу
+            </button>
+          </div>
         </section>
       </div>
 
       <!-- Особености -->
       <section class="benefits section">
+        <h2 class="visually-hidden">особенности нашей работы</h2>
         <div class="container">
-          <h2 class="hidden-title">особенности нашей работы</h2>
           <ul class="benefits-list">
-            <li>
+            <li class="item">
               <h3 class="benefits title">Внимание к деталям</h3>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </li>
-            <li>
+            <li class="item">
               <h3 class="benefits title">Пунктуальность</h3>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </li>
-            <li>
+            <li class="item">
               <h3 class="benefits title">Планирование</h3>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </li>
-            <li>
+            <li class="item">
               <h3 class="benefits title">Современные технологии</h3>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -102,21 +100,21 @@
         <div class="container">
           <h2 class="title">Чем мы занимаемся</h2>
           <ul class="our-works-list">
-            <li>
+            <li class="item">
               <img
                 src="./images/img-1.jpg"
                 width="370"
                 alt="Человек работает за компьютером"
               />
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/img-2.jpg"
                 width="370"
                 alt="Человек держит телефон в руке"
               />
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/img-3.jpg"
                 width="370"
@@ -131,42 +129,38 @@
         <div class="container">
           <h2 class="title">Наша команда</h2>
           <ul class="our-team-list">
-            <li class="item">
+            <li class="item card">
               <img
                 src="./images/ourteam-1.jpg"
                 width="270"
                 alt="Игорь Демьяненко"
-                class="card"
               />
               <h3 class="name">Игорь Демьяненко</h3>
               <p lang="en" class="profession">Product Designer</p>
             </li>
-            <li class="item">
+            <li class="item card">
               <img
                 src="./images/ourteam-2.jpg"
                 width="270"
                 alt="Ольга Репина"
-                class="card"
               />
               <h3 class="name">Ольга Репина</h3>
               <p lang="en" class="profession">Frontend Developer</p>
             </li>
-            <li class="item">
+            <li class="item card">
               <img
                 src="./images/ourteam-3.jpg"
                 width="270"
                 alt="Николай Тарасов"
-                class="card"
               />
               <h3 class="name">Николай Тарасов</h3>
               <p lang="en" class="profession">Marketing</p>
             </li>
-            <li class="item">
+            <li class="item card">
               <img
                 src="./images/ourteam-4.jpg"
                 width="270"
                 alt="Михаил Ермаков"
-                class="card"
               />
               <h3 class="name">Михаил Ермаков</h3>
               <p lang="en" class="profession">UI Designer</p>
