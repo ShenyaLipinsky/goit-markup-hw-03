@@ -138,10 +138,15 @@ body {
   color: var(--brand-secondary-color);
 }
 .nav-links .item {
+  display: flex;
   margin-left: 50px;
 }
 .nav-links .item:first-child {
   margin-left: 0;
+}
+.nav-links .item .contact{
+  display: flex;
+  padding: 32px 0;
 }
 .header .contact {
   color: var(--body-color);
@@ -267,18 +272,20 @@ body {
 }
 .our-team-list .item {
   min-width: 270px;
-  min-height: 368px;
   margin-left: 30px;
 }
 .our-team-list .item:nth-child(4n + 1) {
   margin-left: 0;
+}
+.our-team-description {
+  padding: 30px 15px;
+
 }
 .our-team .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  margin-top: 30px;
 }
 .our-team .profession {
   font-size: 16px;
@@ -330,8 +337,7 @@ body {
   margin: 15px;
 }
 .set-of-cards .descriptions{
-margin-left: 24px;
-margin-top: 20px;
+padding: 20px 24px;
 }
 .name-of-position {
   font-weight: 700;
@@ -345,7 +351,8 @@ margin-bottom: 4px;
   line-height: 1.87;
 }
 .filter .filter-button:hover,
-.filter .filter-button:focus {
+.filter .filter-button:focus,
+.filter .filter-button.all {
   color: var(--white-color);
   background-color: var(--brand-primary-color);
 }
@@ -366,9 +373,12 @@ margin-bottom: 4px;
   display: block;
   margin-bottom: 9px;
 }
-.footer-contacts {
+.footer-adress-item {
   display: block;
   margin-bottom: 9px;
+}
+.footer-adress-item:last-child {
+  margin-bottom: 0px;
 }
 .footer-address {
   color: var(--white-color);
